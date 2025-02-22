@@ -4,7 +4,7 @@ const { BlobServiceClient } = require('@azure/storage-blob');
 module.exports = async function (context, req) {
   try {
     // Hardcodeamos la URL del Storage Account
-    const accountUrl = 'https://bspdevobnewobw.blob.core.windows.net';
+    const accountUrl = 'https://sa01010101.blob.core.windows.net';
     context.log('Conectándose a Storage Account en:', accountUrl);
 
     const credential = new DefaultAzureCredential();
